@@ -25,6 +25,8 @@ py tokenizer.py program.txt
 ```
 
 ### Salida
+Cada token tiene una representación así: <type, value, line, column>
+
 ```sh
 [
 <INT, 5, 0, 0>, 

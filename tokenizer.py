@@ -45,5 +45,10 @@ class Program:
 code = sys.argv[1]
 
 program = Program(code)
-program.tokenize()
+
+try:
+	program.tokenize()
+except Exception as e:
+	print(e)
+
 print(program.tokens)
